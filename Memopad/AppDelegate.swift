@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Memopad
 //
-//  Created by Ayaka Yasunaga on 2021/02/02.
+//
 //
 
 import UIKit

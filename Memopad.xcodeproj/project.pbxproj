@@ -13,26 +13,8 @@
 		8DBF5CDC25C8505F008BD219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF5CDA25C8505F008BD219 /* Main.storyboard */; };
 		8DBF5CDE25C85062008BD219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF5CDD25C85062008BD219 /* Assets.xcassets */; };
 		8DBF5CE125C85062008BD219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF5CDF25C85062008BD219 /* LaunchScreen.storyboard */; };
-		8DBF5CEC25C85062008BD219 /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF5CEB25C85062008BD219 /* MemopadTests.swift */; };
-		8DBF5CF725C85062008BD219 /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF5CF625C85062008BD219 /* MemopadUITests.swift */; };
+		8DBF5D0825C8511B008BD219 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF5D0725C8511B008BD219 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8DBF5CE825C85062008BD219 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8DBF5CC925C8505F008BD219 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DBF5CD025C8505F008BD219;
-			remoteInfo = Memopad;
-		};
-		8DBF5CF325C85062008BD219 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8DBF5CC925C8505F008BD219 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DBF5CD025C8505F008BD219;
-			remoteInfo = Memopad;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8DBF5CD125C8505F008BD219 /* Memopad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memopad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +25,11 @@
 		8DBF5CDD25C85062008BD219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DBF5CE025C85062008BD219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DBF5CE225C85062008BD219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DBF5CE725C85062008BD219 /* MemopadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBF5CEB25C85062008BD219 /* MemopadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadTests.swift; sourceTree = "<group>"; };
-		8DBF5CED25C85062008BD219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DBF5CF225C85062008BD219 /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBF5CF625C85062008BD219 /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
-		8DBF5CF825C85062008BD219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBF5D0725C8511B008BD219 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8DBF5CCE25C8505F008BD219 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DBF5CE425C85062008BD219 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DBF5CEF25C85062008BD219 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				8DBF5CD325C8505F008BD219 /* Memopad */,
-				8DBF5CEA25C85062008BD219 /* MemopadTests */,
-				8DBF5CF525C85062008BD219 /* MemopadUITests */,
 				8DBF5CD225C8505F008BD219 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				8DBF5CD125C8505F008BD219 /* Memopad.app */,
-				8DBF5CE725C85062008BD219 /* MemopadTests.xctest */,
-				8DBF5CF225C85062008BD219 /* MemopadUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,26 +65,9 @@
 				8DBF5CDD25C85062008BD219 /* Assets.xcassets */,
 				8DBF5CDF25C85062008BD219 /* LaunchScreen.storyboard */,
 				8DBF5CE225C85062008BD219 /* Info.plist */,
+				8DBF5D0725C8511B008BD219 /* MemoViewController.swift */,
 			);
 			path = Memopad;
-			sourceTree = "<group>";
-		};
-		8DBF5CEA25C85062008BD219 /* MemopadTests */ = {
-			isa = PBXGroup;
-			children = (
-				8DBF5CEB25C85062008BD219 /* MemopadTests.swift */,
-				8DBF5CED25C85062008BD219 /* Info.plist */,
-			);
-			path = MemopadTests;
-			sourceTree = "<group>";
-		};
-		8DBF5CF525C85062008BD219 /* MemopadUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8DBF5CF625C85062008BD219 /* MemopadUITests.swift */,
-				8DBF5CF825C85062008BD219 /* Info.plist */,
-			);
-			path = MemopadUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +90,6 @@
 			productReference = 8DBF5CD125C8505F008BD219 /* Memopad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8DBF5CE625C85062008BD219 /* MemopadTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8DBF5CFE25C85062008BD219 /* Build configuration list for PBXNativeTarget "MemopadTests" */;
-			buildPhases = (
-				8DBF5CE325C85062008BD219 /* Sources */,
-				8DBF5CE425C85062008BD219 /* Frameworks */,
-				8DBF5CE525C85062008BD219 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8DBF5CE925C85062008BD219 /* PBXTargetDependency */,
-			);
-			name = MemopadTests;
-			productName = MemopadTests;
-			productReference = 8DBF5CE725C85062008BD219 /* MemopadTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8DBF5CF125C85062008BD219 /* MemopadUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8DBF5D0125C85062008BD219 /* Build configuration list for PBXNativeTarget "MemopadUITests" */;
-			buildPhases = (
-				8DBF5CEE25C85062008BD219 /* Sources */,
-				8DBF5CEF25C85062008BD219 /* Frameworks */,
-				8DBF5CF025C85062008BD219 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8DBF5CF425C85062008BD219 /* PBXTargetDependency */,
-			);
-			name = MemopadUITests;
-			productName = MemopadUITests;
-			productReference = 8DBF5CF225C85062008BD219 /* MemopadUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +101,6 @@
 				TargetAttributes = {
 					8DBF5CD025C8505F008BD219 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					8DBF5CE625C85062008BD219 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 8DBF5CD025C8505F008BD219;
-					};
-					8DBF5CF125C85062008BD219 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 8DBF5CD025C8505F008BD219;
 					};
 				};
 			};
@@ -220,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				8DBF5CD025C8505F008BD219 /* Memopad */,
-				8DBF5CE625C85062008BD219 /* MemopadTests */,
-				8DBF5CF125C85062008BD219 /* MemopadUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +133,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DBF5CE525C85062008BD219 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DBF5CF025C85062008BD219 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,42 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBF5D0825C8511B008BD219 /* MemoViewController.swift in Sources */,
 				8DBF5CD925C8505F008BD219 /* ViewController.swift in Sources */,
 				8DBF5CD525C8505F008BD219 /* AppDelegate.swift in Sources */,
 				8DBF5CD725C8505F008BD219 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DBF5CE325C85062008BD219 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DBF5CEC25C85062008BD219 /* MemopadTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DBF5CEE25C85062008BD219 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DBF5CF725C85062008BD219 /* MemopadUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8DBF5CE925C85062008BD219 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8DBF5CD025C8505F008BD219 /* Memopad */;
-			targetProxy = 8DBF5CE825C85062008BD219 /* PBXContainerItemProxy */;
-		};
-		8DBF5CF425C85062008BD219 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8DBF5CD025C8505F008BD219 /* Memopad */;
-			targetProxy = 8DBF5CF325C85062008BD219 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8DBF5CDA25C8505F008BD219 /* Main.storyboard */ = {
@@ -442,7 +296,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.yasunaga.taruto.Memopad;
+				PRODUCT_BUNDLE_IDENTIFIER = app.taruto.Memopad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,90 +314,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.yasunaga.taruto.Memopad;
+				PRODUCT_BUNDLE_IDENTIFIER = app.taruto.Memopad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8DBF5CFF25C85062008BD219 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemopadTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.yasunaga.taruto.MemopadTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memopad.app/Memopad";
-			};
-			name = Debug;
-		};
-		8DBF5D0025C85062008BD219 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemopadTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.yasunaga.taruto.MemopadTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memopad.app/Memopad";
-			};
-			name = Release;
-		};
-		8DBF5D0225C85062008BD219 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemopadUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.yasunaga.taruto.MemopadUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Memopad;
-			};
-			name = Debug;
-		};
-		8DBF5D0325C85062008BD219 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemopadUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.yasunaga.taruto.MemopadUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Memopad;
 			};
 			name = Release;
 		};
@@ -564,24 +338,6 @@
 			buildConfigurations = (
 				8DBF5CFC25C85062008BD219 /* Debug */,
 				8DBF5CFD25C85062008BD219 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8DBF5CFE25C85062008BD219 /* Build configuration list for PBXNativeTarget "MemopadTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8DBF5CFF25C85062008BD219 /* Debug */,
-				8DBF5D0025C85062008BD219 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8DBF5D0125C85062008BD219 /* Build configuration list for PBXNativeTarget "MemopadUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8DBF5D0225C85062008BD219 /* Debug */,
-				8DBF5D0325C85062008BD219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
